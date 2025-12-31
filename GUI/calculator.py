@@ -27,6 +27,14 @@ def div_func():
       ans = n1/n2
       label.config(text=f"Answer is:  {ans}")          
 
+def clear_func():
+    num1.delete(0, tk.END)
+    num2.delete(0, tk.END)
+    label.config(text="Enter two numbers")
+
+    
+
+
 #creating main window
 root = tk.Tk()
 root.title("CALCULATOR")
@@ -52,6 +60,9 @@ multi_button= tk.Button(root , text="*" , command = multi_func)
 multi_button.pack(pady=5)
 div_button = tk.Button(root , text="/" , command=div_func)
 div_button.pack(pady=5)
+clear_button = tk.Button(root, text="Clear", command=clear_func)
+clear_button.pack(pady=5)
+
 
 #run
 root.mainloop()

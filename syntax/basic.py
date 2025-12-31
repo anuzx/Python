@@ -20,6 +20,8 @@ print(int(num)-5) #by default num will be a string
 
 #.lower() ->lowercase
 
+#.capitalize() -> makes the first char of string capital
+
 x ='hello'
 y = 3
 print(x*y) #hellohellohello
@@ -33,7 +35,9 @@ print(x+y) #helloyes
 x = [0,1,2,3,4,5,6,7,8,9]
 y = ['hi' , 'hello' , 'bye']
 s="hello"
-sliced = x[0:4:2] #start:stop:step (we put the value of index) , index at stop we will not be included  
+sliced = x[0:4:2] #start:stop:step (we put the value of index) , index at stop we will not be included 
+
+#last index in python is taken as -1
 
 #to reverse the list we can do x[::-1] , slice operator works on string , tuples too 
 

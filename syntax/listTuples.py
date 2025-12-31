@@ -14,9 +14,25 @@ print(x.pop()) #remove and return the last element in the list
 
 #list are mutable
 
+#list comprehension -> l = [j for j in range(1,11)] -> its a concise way to create lists in python 
+
+#eg: 
+squares = [x**2 for x in range(1,11)]
+print(squares)
+
 #Tuples -> they are immutable (we cannot append , remove or change elements)
 
 x = (0,0,2,2)
+
+#unpacking tuple
+
+t=(1,2,3)
+a,b,c =t #now a=1 , b=2 , c=3
+
+q = (1,2,3,4,5,6,7)
+
+A,B,*C = q #A=1 , B=2 , C=[3,4,5,6,7]
+
 
 #Sets: unordered collection of elements
 

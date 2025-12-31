@@ -14,3 +14,11 @@ df = pd.DataFrame({
 })
 
 print(df)
+
+#functions in panda:
+
+#read_csv("file.csv")->reads a csv(comma seperated values) file into a DataFrame
+
+#head(n) / tail(n) -> displays the first or last n rows
+
+#sort_values("column") -> sorts data based on a column

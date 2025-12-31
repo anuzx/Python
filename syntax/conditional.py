@@ -16,6 +16,8 @@ else:
 
 #while and for loop
 
+
+
 for i in range(10): #start , stop , step (by default if you dont put anything it will take stop value)
     print(i)
 
@@ -23,6 +25,12 @@ x = [3,4,5,6]
 
 for i,element in enumerate(x):#create index and values for all the elements
     print(i , element)
+
+#for item in sequence
+
+fruits =["apple" , "banana" , "pineapple"]
+for fruit in fruits:
+    print(fruit)
 
 
 #while loop
